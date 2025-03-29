@@ -10,7 +10,9 @@ return {
             view = {
                 width = 30,
                 side = "left"
-            }
+            },
+            respect_buf_cwd = true,
+            sync_root_with_cwd = true,
         }
         vim.keymap.set('n', '<c-x>', ':NvimTreeToggle<CR>', {noremap = true})
     end,

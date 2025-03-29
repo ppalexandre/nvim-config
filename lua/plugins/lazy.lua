@@ -27,6 +27,7 @@ require("lazy").setup({
         { import = "plugins.nvim-tree"},
         { import = "plugins.telescope"},
         { import = "plugins.treesitter"},
+        { import = "plugins.commentary"},
     },
     install = { colorscheme = { "habamax" } },
     checker = { enabled = true },
